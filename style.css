@@ -1,3 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+}
+
+a {
+    color: inherit;
+}
+
 body {
-    background-color: aqua;
+    background-color: #4a7def;
+}
+
+.main {
+    width: 460px;
+    height: 470px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.main .container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.main .container .title {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.main .container .line {
+    width: 30px;
+    height: 3px;
+    border-radius: 25px;
+    background-color: #4070f4;
+}
+
+.main .container .form {
+    margin-top: 40px;
+}
+
+.main .container .form .input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main .container .form .input-section input {
+    padding: 10px 0;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.main .container .form .input-section .input-mail {
+    border-bottom: 2px solid #ccc;
+}
+
+.main .container .form .input-section .input-mail i {
+    color: #ccc;
+}
+
+.main .container .form .input-section .input-password i {
+    color: #ccc;
+}
+
+.main .container .form .input-section .input-password {
+    border-bottom: 2px solid #ccc;
+}
+
+.main .container .form .checkbox-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.main .container .form .checkbox-section .checkbox label{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.main .container .form .checkbox-section a {
+    font-size: 14px;
+    color: #4a7def;
+}
+
+.main .container .form .checkbox-section .checkbox label span {
+    font-size: 14px;
+}
+
+.main .container button {
+    margin-top: 25px;
+    padding: 14px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #4070f4;
+    color: #fff;
+}
+
+.main .container .sign-up {
+    display: flex;
+    margin-top: 40px;
+    gap: 5px;
+    justify-content: center;
+}
+
+.main .container .sign-up a {
+    color: #4070f4;
 }
